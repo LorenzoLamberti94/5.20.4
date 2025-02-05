@@ -1,0 +1,6 @@
+[submodule "gap_sdk_private"]
+	path = gap_sdk_private
+	url = git@github.com:GreenWaves-Technologies/gap_sdk_private.git
+[submodule "gap_riscv_toolchain_ubuntu"]
+	path = gap_riscv_toolchain_ubuntu
+	url = git@github.com:GreenWaves-Technologies/gap_gnu_toolchain.git
