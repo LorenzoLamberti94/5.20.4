@@ -1,6 +1,6 @@
 # 5.20.4
-export SDK_BASE="$HOME/gap"
-export SDK_VERSION="5.20.4"
+export GAP_SDK_BASE="$HOME/gap"
+export GAP_SDK_VERSION="5.20.4"
 export SDK_DIR="$GAP_SDK_BASE/$GAP_SDK_VERSION/"
 
 # Activate conda environment
