@@ -4,7 +4,7 @@ export GAP_SDK_VERSION="5.20.4"
 export SDK_DIR="$GAP_SDK_BASE/$GAP_SDK_VERSION/"
 
 # Activate conda environment
-conda activate "gap_sdk_$SDK_VERSION"
+conda activate "gap_sdk_$GAP_SDK_VERSION"
 #conda activate gap_sdk_5.20.4
 
 # RISC-V toolchain
