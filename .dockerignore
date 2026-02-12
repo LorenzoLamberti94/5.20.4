@@ -1,0 +1,29 @@
+# VCS / OS noise
+.git
+.gitmodules
+.DS_Store
+**/.DS_Store
+
+# Python/cache noise
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+
+# IDE/editor noise
+**/.idea/
+**/.vscode/
+
+# SDK/toolchain local build artifacts (safe to rebuild inside container)
+gap_sdk_private/build/
+gap_sdk_private/install/**
+!gap_sdk_private/install/target/
+!gap_sdk_private/install/target/bin/
+!gap_sdk_private/install/target/bin/fsbl
+!gap_sdk_private/install/target/bin/ssbl
+gap_sdk_private/.git/
+gap_riscv_toolchain_ubuntu/.git/
+
+# Optional heavy content not needed for most GAP9 examples
+gap_sdk_private/nn_menu/
